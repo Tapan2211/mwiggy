@@ -1,0 +1,28 @@
+/* Footer.module.css */
+
+.main_div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 10px;
+    
+  }
+  
+  .sub_div {
+    flex: 1;
+    max-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .text {
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+  }
+
+  h4{
+    color: white;
+  }
+  

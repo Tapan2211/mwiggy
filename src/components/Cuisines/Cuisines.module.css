@@ -1,0 +1,29 @@
+.main_div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .div_text {
+    border: 1px solid #2e2e2e;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-weight: 500;
+    width: 200px; 
+  }
+
+  .div_text:hover{
+    -webkit-transform: scale(1.106);
+    -moz-transform: scale(1.106);
+    transform: scale(1.106);
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .div_text {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  

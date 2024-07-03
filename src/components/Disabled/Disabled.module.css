@@ -1,0 +1,22 @@
+.App {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .counter button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .counter span {
+    font-size: 2rem;
+  }

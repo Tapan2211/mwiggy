@@ -1,0 +1,6 @@
+.main_div{
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px;
+}

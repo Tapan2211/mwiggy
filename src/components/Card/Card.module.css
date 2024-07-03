@@ -1,0 +1,23 @@
+
+.card{
+    width: 200px;
+    /* height: 215px; */
+    margin: 10px;
+    background-color: #FFA700;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+   width: 160px;
+   height: 205px;
+   border-radius: 50%; 
+   padding: 10px;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2e2e2e;
+}

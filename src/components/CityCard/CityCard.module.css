@@ -1,0 +1,29 @@
+/* CityCard.module.css */
+
+.main {
+    margin: 15px;
+    position: relative; /* Add position relative to the card */
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+    transform: translateY(1%); /* Start with hidden text below */
+}
+
+.main:hover {
+    filter: brightness(90%);
+    transform: scale(1);
+    transform: translateY(0);
+  }
+
+.cardContent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.cardContent p {
+    margin: 0; /* Remove default margin for the paragraph */
+    color: white; /* Text color */
+}
